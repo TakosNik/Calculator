@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(75, 70, 58);
+    align-content: center;
+}
+
+form {
+    background-color: rgb(195, 84, 10);
+    border-style:outset;
+    border-color: rgb(59, 57, 57);
+    border-width: 10px;
+    width: max-content;
+    height: max-content;
+    padding: 15px 10px 10px 10px;
+    border-radius: 30px;
+}
+
+
+
+label {
+    width: 100%;
+    margin: 10px 10px 10px 10px;
+}
+
+input {
+    border-radius: 50px;
+    text-align: center;
+    font-size: large;
+}
+
+.inputs {
+    font-size: large;
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: auto;
+    border-radius: 50px;
+}
+
+.form-outline form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+button {
+    width: 80px;
+    background-color: rgb(75, 70, 58);
+    color: white;
+    font-size: large;
+    margin: 0px 15px 0px 15px;
+    border-style: solid;
+    border-radius: 50px;
+}

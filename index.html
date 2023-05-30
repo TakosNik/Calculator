@@ -9,25 +9,36 @@
     <title>My Page</title>
 </head>
 <body>
-    <form type="register" id="form">
-        <label id="labelx">Please insert a number.</label>
-        <input type="text" id="xText">
-        <br>
-        <label id="labely">Please insert another number.</label>
-        <input type="text" id="yText">
-        <lr></lr>
-        <br>
-        <hr>
-        
-        <button type="button" id="+"><b>+</b></button>
-        <button type="button" id="-"><b>-</b></button>
-        <button type="button" id="*"><b>*</b></button>
-        <button type="button" id="/"><b>/</b></button>
-        <br>
-        <hr>
-        <label id="result">Result is: </label>
-        <label id="final"></label>
-    </form>
+    <div class="form-outline">
+        <form type="register" id="form">
+            <div class="inputs">
+                <label id="labelx"><b>Please insert the 1st number.</b></label>
+                <input type="text" id="xText">
+            </div>    
+                <br>
+            <div class="inputs">    
+                <label id="labely"><b>Please insert the 2nd number.</b></label>
+                <input type="text" id="yText">
+            </div>    
+            <lr></lr>
+            <br>
+            <hr>
+
+
+            <div>
+                <button type="button" id="+"><b>+</b></button>
+                <button type="button" id="-"><b>-</b></button>
+                <button type="button" id="*"><b>*</b></button>
+                <button type="button" id="/"><b>/</b></button>
+            </div>
+            <br>
+            <hr>
+            <div id="result">
+                <label><b>Result is: </b></label>
+                <label id="final"></label>
+            </div>
+        </form>
+    </div>
 
 
 
