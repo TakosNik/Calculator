@@ -6,6 +6,7 @@ body {
 form {
     background-color: rgb(195, 84, 10);
     border-style:outset;
+    font-size: x-large;
     border-color: rgb(59, 57, 57);
     border-width: 10px;
     width: max-content;
@@ -48,8 +49,38 @@ button {
     width: 80px;
     background-color: rgb(75, 70, 58);
     color: white;
-    font-size: large;
-    margin: 0px 15px 0px 15px;
+    font-size:xx-large;
+    margin: 0px 0px 0px 0px;
     border-style: solid;
     border-radius: 50px;
 }
+
+#result {
+    font-size: 24px;
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+
+#clearform {
+
+    padding: 0px 10px 0px 10px;
+}
+
+button:hover {
+    background-color: rgb(56, 51, 39);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:active {
+    background-color: black;
+    transform: translateY(6px);
+  }
+
+#clearform {
+    font-size: large;
+}
+

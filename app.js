@@ -36,8 +36,7 @@ document.getElementById("/").onclick = function(){
     x = Number(x);
     y = Number(y);
     res = x / y;
-    console.log(res)
+    console.log(res);
     document.getElementById("final").innerHTML = res;
 }
-
 
