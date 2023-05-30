@@ -40,3 +40,7 @@ document.getElementById("/").onclick = function(){
     document.getElementById("final").innerHTML = res;
 }
 
+document.getElementById("clearform").onclick = function(){
+    res = " ";
+    document.getElementById("final").innerHTML = res;
+}
